@@ -1,0 +1,48 @@
+body {
+  font-family: 'noto-sans-jp', 'noto-sans';
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* html {
+  @apply bg-white dark:bg-sumi-900;
+} */
+
+h1 {
+  @apply text-heading-L;
+}
+
+h2 {
+  @apply text-heading-M;
+}
+
+h3 {
+  @apply text-heading-S;
+}
+
+p {
+  @apply text-L;
+}
+
+button {
+  @apply text-button dark:text-black;
+}
+
+a,
+a:visited {
+  @apply text-L text-sea-800 dark:text-sea-300;
+}
+
+pre {
+  @apply m-8 overflow-x-auto rounded-md border border-gray-300 bg-gray-100 p-2;
+}
+
+ul {
+  @apply ml-4;
+}
+
+li {
+  @apply list-inside list-disc;
+}
