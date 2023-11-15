@@ -1,4 +1,4 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {}
-
-module.exports = nextConfig
+const nextConfig = {};
+const WithPWA = require("next-pwa");
+module.exports = WithPWA(nextConfig);
