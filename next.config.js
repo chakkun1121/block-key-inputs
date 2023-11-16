@@ -1,6 +1,6 @@
 const SUB_DIRECTORY = "/block-key-inputs";
 const isProd = process.env.NODE_ENV == "production";
-const withPWA = require("next-pwa")({
+const WithPWA = require("next-pwa")({
   dest: "public",
 });
 module.exports = WithPWA({
@@ -9,4 +9,5 @@ module.exports = WithPWA({
   assetPrefix: isProd ? SUB_DIRECTORY : "",
   publicRuntimeConfig: {
     basePath: isProd ? SUB_DIRECTORY : "",
+  },
 });
