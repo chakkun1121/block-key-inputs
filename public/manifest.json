@@ -1,9 +1,0 @@
-{
-  "theme_color": "#d0021b",
-  "background_color": "#f5a623",
-  "display": "standalone",
-  "scope": "/",
-  "start_url": "/",
-  "name": "block-key-inputs",
-  "description": "キー入力をブロックするアプリです。"
-}
