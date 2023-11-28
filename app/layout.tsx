@@ -7,8 +7,8 @@ export const metadata: Metadata = {
     template: "%s | block-key-inputs | chakkun1121",
   },
   description:
-    "キー入力をブロックするアプリです。PWAを使用することでシステムキーの一部も無効化できます。",
-  manifest: "./manifest.json",
+    "キー入力をブロックするアプリです。PWAを使用することでシステムキーの一部も無効化できます。このアプリを使用することで電源をつけたままキーボードを清掃できます",
+  manifest: "./manifest.webmanifest",
 };
 
 export default function RootLayout({
